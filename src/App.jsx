@@ -1,5 +1,5 @@
-import AboutUs from './components/Aboutus'
 import Hero from './components/Hero'
+import AboutUs from './components/AboutUs'
 import OurProducts from './components/OurProducts'
 
 function App() {
