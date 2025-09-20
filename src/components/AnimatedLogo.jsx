@@ -2,11 +2,11 @@ import "../assets/LogoAnimation.css";
 
 const LogoAnimation = () => {
   return (
-    <div className="logo-container absolute sm:mt-[-20%] md:mt-[-35%] lg:mt-[-40%]">
+    <div className="logo-container absolute sm:mt-[-20%] md:mt-[-35%] lg:mt-[-40%] xl:mt-[-30%] 2xl:mt-[-25%]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1450 1000"
-        className="w-[800px] h-[400px] sm:w-[1000px] sm:h-auto md:w-[1200px] md:h-auto  lg:w-[1400px] lg:h-auto"
+        className="w-[800px] h-[400px] sm:w-[1000px] sm:h-auto md:w-[1200px] md:h-auto  lg:w-[1400px] lg:h-auto xl:w-[1400px] xl:h-auto 2xl:w-[1600px] 2xl:h-auto"
       >
         {/* الخاء */}
         <path

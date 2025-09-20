@@ -10,14 +10,14 @@ const EmbroideryPattern = ({EmbroideryNumber, className}) => {
   }, [])
 
   return (
-    <div className={`w-full flex flex-row justify-between mt-2 ${className}`}>
-      <div className="flex flex-col gap-2">
+    <div className={`w-full flex flex-row justify-between mt-2 2xl:mt-[2%] ${className}`}>
+      <div className="flex flex-col gap-2 2xl:gap-5">
         {[...Array(number)].map((_, index) => (
           <Embroidery key={index}/>
         ))}
       </div>
 
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 2xl:gap-5">
         {[...Array(number)].map((_, index) => (
           <Embroidery key={index} />
         ))}
