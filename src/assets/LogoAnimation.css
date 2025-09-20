@@ -5,10 +5,10 @@
   background: transparent;
 } */
 
-.logo-svg {
-  width: 1200px; /* عدل الحجم كما تشاء */
+/* .logo-svg {
+  width: 1200px;
   height: auto;
-}
+} */
 
 .path {
   fill: none; /* مبدئياً بدون تعبئة */
