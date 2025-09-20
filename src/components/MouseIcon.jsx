@@ -12,7 +12,7 @@ const MouseIcon = () => {
   return (
     <button
       onClick={handleScroll}
-      className="flex justify-center items-center w-[80px] h-[80px] bg-[#7a4833] mt-[-60%] sm:mt-[-20%] md:mt-[-15%] lg:mt-[-10%] rounded-full animate-bounce z-4 cursor-pointer"
+      className="flex justify-center items-center w-[80px] h-[80px] bg-[#7a4833] mt-[-60%] sm:mt-[-20%] md:mt-[-15%] lg:mt-[-18%] rounded-full animate-bounce z-4 cursor-pointer"
     >
       <Mouse size={60} className="text-[#F0DAAE]" />
     </button>

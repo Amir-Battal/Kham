@@ -2,7 +2,7 @@ import "../assets/LogoAnimation.css";
 
 const LogoAnimation = () => {
   return (
-    <div className="logo-container absolute sm:mt-[-20%] md:mt-[-35%] lg:mt-[-30%]">
+    <div className="logo-container absolute sm:mt-[-20%] md:mt-[-35%] lg:mt-[-36%]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1450 1000"
