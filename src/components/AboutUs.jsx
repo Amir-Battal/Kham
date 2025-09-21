@@ -68,7 +68,7 @@ const AboutUs = () => {
           <div className="w-[80%] max-w-[1200px] flex flex-col items-center gap-10">
             <div
               ref={addCard}
-              className="card1Background w-full h-[350px] bg-[#8b5a2b] rounded-[40px] shadow-lg flex items-center justify-center text-[#ede1ca] text-2xl border-4 border-[#734E24]"
+              className="card1Background w-full h-[350px] bg-[#8b5a2b] rounded-[40px] shadow-lg flex items-center justify-center text-[#ede1ca] text-2xl border-4  border-[#734E24]"
             >
               <div className="arabic">
                 <h1 className="text-[40px] text-shadow-lg">
@@ -78,7 +78,7 @@ const AboutUs = () => {
             </div>
             <div
               ref={addCard}
-              className="card2Background w-full h-[350px] bg-[#7a3e2b] rounded-[40px] shadow-lg flex items-center justify-center text-[#ede1ca] text-2xl mt-[-30%] rotate-[-10deg] border-4 border-[#5f3827]"
+              className="card2Background w-full h-[350px] bg-[#7a3e2b] rounded-[40px] shadow-lg flex items-center justify-center text-[#ede1ca] text-2xl mt-[-70%] sm:mt-[-60%] md:mt-[-50%] lg:mt-[-35%]  xl:mt-[-30%] rotate-[-10deg] border-4 border-[#5f3827]"
             >
               <div className="arabic">
                 <h1 className="text-[40px] text-shadow-lg">
@@ -88,7 +88,7 @@ const AboutUs = () => {
             </div>
             <div
               ref={addCard}
-              className="card3Background w-full h-[350px] bg-[#a9a077] rounded-[40px] shadow-lg flex items-center justify-center text-[#ede1ca] text-2xl mt-[-30%] rotate-[10deg] border-4 border-[#7B704E]"
+              className="card3Background w-full h-[350px] bg-[#a9a077] rounded-[40px] shadow-lg flex items-center justify-center text-[#ede1ca] text-2xl mt-[-70%] sm:mt-[-60%] md:mt-[-50%] lg:mt-[-35%] xl:mt-[-30%] rotate-[10deg] border-4 border-[#7B704E]"
             >
               <div className="arabic">
                 <h1 className="text-[40px] text-shadow-lg">
