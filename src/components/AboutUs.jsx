@@ -78,7 +78,7 @@ const AboutUs = () => {
             >
               <div className="arabic">
                 <h1 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] text-shadow-lg">
-                  خبرة تتجاوز الخمسون عاماً في مجال تصنيع الجلديات 
+                  خبرة عريقة في مجال الجلديات
                 </h1>
               </div>
             </div>
