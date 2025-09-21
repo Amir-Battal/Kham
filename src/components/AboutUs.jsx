@@ -107,7 +107,7 @@ const AboutUs = () => {
       </div>
 
       <div className="relative w-full h-[120px] ">
-        <div className="absolute top-[-100%] left-0 right-0">
+        <div className="absolute -top-20 sm:-top-24 md:-top-32 left-0 right-0">
           <CurvedLoop
             marqueeText="✦ جلود خام ✦ دقة في المواعيد ✦ جودة عالية"
             speed={2}
