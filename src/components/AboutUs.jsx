@@ -74,9 +74,11 @@ const AboutUs = () => {
           <div className="w-[80%] h-[600px] max-w-[1200px] flex flex-col items-center">
             <div
               ref={addCard}
-              className="card1Background w-full h-[350px] bg-[#8b5a2b] rounded-[40px] shadow-lg flex items-center justify-center text-[#ede1ca] text-2xl border-4  border-[#734E24]"
+              className="card1Background w-full h-[350px] bg-[#8b5a2b] rounded-[40px] shadow-lg flex items-center sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-center text-[#ede1ca] text-2xl border-4  border-[#734E24]"
             >
-              <div className="arabic">
+              <div className="absolute w-full h-full sm:h-[20%] md:h-[20%] lg:h-[20%] xl:h-[20%] 2xl:h-[20%] flex rounded-b-[40px] bg-gradient-to-b from-[#00000033] to-[#00000066] backdrop-blur-[0.8px] z-0" />
+
+              <div className="arabic z-1">
                 <h1 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] text-shadow-lg">
                   خبرة عريقة في مجال الجلديات
                 </h1>
@@ -84,9 +86,11 @@ const AboutUs = () => {
             </div>
             <div
               ref={addCard}
-              className="card2Background w-full h-[350px] bg-[#7a3e2b] rounded-[40px] shadow-lg flex items-center justify-center text-[#ede1ca] text-2xl mt-[-100%] sm:mt-[-50%] md:mt-[-45%] lg:mt-[-35%]  xl:mt-[-30%] rotate-[-10deg] border-4 border-[#5f3827]"
+              className="card2Background w-full h-[350px] bg-[#7a3e2b] rounded-[40px] shadow-lg flex items-center sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-center text-[#ede1ca] text-2xl mt-[-100%] sm:mt-[-50%] md:mt-[-45%] lg:mt-[-35%]  xl:mt-[-30%] rotate-[-10deg] border-4 border-[#5f3827]"
             >
-              <div className="arabic">
+              <div className="absolute w-full h-full sm:h-[20%] md:h-[20%] lg:h-[20%] xl:h-[20%] 2xl:h-[20%] flex rounded-b-[40px] bg-gradient-to-b from-[#00000033] to-[#00000066] backdrop-blur-[0.8px] z-0" />
+
+              <div className="arabic z-1">
                 <h1 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] text-shadow-lg">
                   منتجاتنا تتحدث عنا وتخبرك بكل التفاصيل
                 </h1>
@@ -94,9 +98,11 @@ const AboutUs = () => {
             </div>
             <div
               ref={addCard}
-              className="card3Background w-full h-[350px] bg-[#a9a077] rounded-[40px] shadow-lg flex items-center justify-center text-[#ede1ca] text-2xl mt-[-100%] sm:mt-[-50%] md:mt-[-45%] lg:mt-[-38%] xl:mt-[-30%] rotate-[10deg] border-4 border-[#7B704E] z-4"
+              className="card3Background w-full h-[350px] bg-[#a9a077] rounded-[40px] shadow-lg flex items-center sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-center text-[#ede1ca] text-2xl mt-[-100%] sm:mt-[-50%] md:mt-[-45%] lg:mt-[-38%] xl:mt-[-30%] rotate-[10deg] border-4 border-[#7B704E] z-4"
             >
-              <div className="arabic">
+              <div className="absolute w-full h-full sm:h-[20%] md:h-[20%] lg:h-[20%] xl:h-[20%] 2xl:h-[20%] flex rounded-b-[40px] bg-gradient-to-b from-[#00000033] to-[#00000066] backdrop-blur-[0.8px] z-0" />
+
+              <div className="arabic z-1">
                 <h1 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] text-shadow-lg">
                   ما يميزنا هو أهتمامنا بالتفاصيل
                 </h1>
