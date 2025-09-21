@@ -18,38 +18,19 @@ const AboutUs = () => {
   };
 
   useEffect(() => {
-  const cards = cardsRef.current;
-  if (!cards.length) return;
+    const cards = cardsRef.current;
+    if (!cards.length) return;
 
-  const isMobile = window.innerWidth <= 768;
+    const isMobile = window.innerWidth <= 768;
 
-  // Set initial styles
-  gsap.set(cards, { opacity: 0, y: 100, scale: 0.95 });
+    gsap.set(cards, { opacity: 0, y: 100, scale: 0.95 });
 
-  if (isMobile) {
-    // ✅ لكل بطاقة ScrollTrigger خاص بها
-    cards.forEach((card, i) => {
-      gsap.to(card, {
-        scrollTrigger: {
-          trigger: card,
-          start: "top 80%", // متى تبدأ الحركة
-          toggleActions: "play none none reverse", // أو استخدم 'play play play reset' حسب التجربة
-        },
-        opacity: 1,
-        y: 0,
-        scale: 1,
-        duration: 1,
-        ease: "power2.out",
-      });
-    });
-  } else {
-    // ✅ ديسكتوب: استخدم التايملاين مع pin
     const tl = gsap.timeline({
       scrollTrigger: {
         trigger: sectionRef.current,
         start: "top top",
-        end: `+=${cards.length * window.innerHeight}`,
         pin: true,
+        end: `+=${cards.length * window.innerHeight * (isMobile ? 0.9 : 1)}`,
         scrub: 1,
         snap: {
           snapTo: 1 / (cards.length - 1),
@@ -72,13 +53,12 @@ const AboutUs = () => {
         i
       );
     });
-  }
 
-  return () => {
-    ScrollTrigger.getAll().forEach((st) => st.kill());
-  };
-}, []);
-
+    return () => {
+      ScrollTrigger.getAll().forEach((st) => st.kill());
+      tl.kill();
+    };
+  }, []);
 
 
   return (
