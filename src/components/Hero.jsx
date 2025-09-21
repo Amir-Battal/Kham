@@ -11,12 +11,16 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Hero = () => {
   useEffect(() => {
+    const isMobile = window.innerWidth <= 768;
+
+    console.log(isMobile);
+
     ScrollTrigger.create({
       trigger: ".hero-section",
       start: "top top",
       end: "bottom top",
       pin: true,
-      pinSpacing: false, // ضروري جداً
+      pinSpacing: isMobile, // ضروري جداً
     });
 
     return () => {
