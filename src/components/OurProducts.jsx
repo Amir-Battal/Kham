@@ -116,13 +116,13 @@ const OurProducts = () => {
         <KhamLogo className="absolute z-6 fill-[#F0DAAE] opacity-[40%] top-[200px]"/>
 
         {/* البطاقات */}
-        <div ref={addCard} className="productCard1Background arabic absolute top-[2%] left-1/2 -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-[20] z-1">
+        <div ref={addCard} className="productCard1Background arabic absolute top-[2%] left-1/2 -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-start sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-[20] z-1">
           <h2>جلود متينـــة</h2>
         </div>
-        <div ref={addCard} className="productCard2Background arabic absolute top-[10%] left-1/2  -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-lg z-3">
+        <div ref={addCard} className="productCard2Background arabic absolute top-[10%] left-1/2  -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-start sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-lg z-3">
           <h2>محافـــظ راقيــــــة</h2>
         </div>
-        <div ref={addCard} className="productCard3Background arabic absolute top-[18%] left-1/2 -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-lg z-5">
+        <div ref={addCard} className="productCard3Background arabic absolute top-[18%] left-1/2 -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-start sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-lg z-5">
           <h2>حقائـــب ممـــيزة</h2>
         </div>
       </div>
