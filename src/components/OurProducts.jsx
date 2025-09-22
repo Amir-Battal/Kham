@@ -116,13 +116,13 @@ const OurProducts = () => {
         <KhamLogo className="absolute z-6 fill-[#F0DAAE] opacity-[40%] top-[200px]"/>
 
         {/* البطاقات */}
-        <div ref={addCard} className="productCard1Background arabic absolute top-[2%] left-1/2 -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-start sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-[20] z-1">
+        <div ref={addCard} className="productCard1BackgroundMobile sm:productCard1Background md:productCard1Background lg:productCard1Background xl:productCard1Background 2xl:productCard1Background arabic absolute top-[2%] left-1/2 -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-start sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-[20] z-1">
           <h2 className="text-[35px] sm:text-[60px] md:sm:text-[60px] lg:sm:text-[60px] xl:sm:text-[60px] 2xl:sm:text-[60px]">جلود متينـــة</h2>
         </div>
-        <div ref={addCard} className="productCard2Background arabic absolute top-[10%] left-1/2  -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-start sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-lg z-3">
+        <div ref={addCard} className="productCard2BackgroundMobile sm:productCard2Background md:productCard2Background lg:productCard2Background xl:productCard2Background 2xl:productCard2Background arabic absolute top-[10%] left-1/2  -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-start sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-lg z-3">
           <h2 className="text-[35px] sm:text-[60px] md:sm:text-[60px] lg:sm:text-[60px] xl:sm:text-[60px] 2xl:sm:text-[60px]">محافـــظ راقيـــة</h2>
         </div>
-        <div ref={addCard} className="productCard3Background arabic absolute top-[18%] left-1/2 -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-start sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-lg z-5">
+        <div ref={addCard} className="productCard3BackgroundMobile sm:productCard3Background md:productCard3Background lg:productCard3Background xl:productCard3Background 2xl:productCard3Background arabic absolute top-[18%] left-1/2 -translate-x-1/2 w-[80%] h-[500px] bg-[#A3966A] border-4 border-[#7B704E] rounded-[15px] flex items-start sm:items-end md:items-end lg:items-end xl:items-end 2xl:items-end justify-right p-10 text-[#ede1ca] text-[60px] shadow-lg z-5">
           <h2 className="text-[35px] sm:text-[60px] md:sm:text-[60px] lg:sm:text-[60px] xl:sm:text-[60px] 2xl:sm:text-[60px]">حقائـــب ممـــيزة</h2>
         </div>
       </div>

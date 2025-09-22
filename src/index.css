@@ -70,6 +70,27 @@ body{
   background-repeat: no-repeat;
 }
 
+.productCard1BackgroundMobile{
+  background-image: url('../src/assets/App/Product1.jpg');
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.productCard2BackgroundMobile{
+  background-image: url('../src/assets/App/Product2.jpg');
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.productCard3BackgroundMobile{
+  background-image: url('../src/assets/App/Product3.jpg');
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .curved-loop-jacket {
   /* min-height: 100vh; */
   /* display: flex; */
