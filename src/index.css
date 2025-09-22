@@ -70,25 +70,21 @@ body{
   background-repeat: no-repeat;
 }
 
-.productCard1BackgroundMobile{
-  background-image: url('../src/assets/App/Product1.jpg');
-  background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+@media (max-width: 768px){
+  .productCard1Background{
+    background-position: top;
+    background-size: contain;
+  }
 
-.productCard2BackgroundMobile{
-  background-image: url('../src/assets/App/Product2.jpg');
-  background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
+  .productCard2Background{
+    background-position: top;
+    background-size: contain;
+  }
 
-.productCard3BackgroundMobile{
-  background-image: url('../src/assets/App/Product3.jpg');
-  background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
+  .productCard3Background{
+    background-position: top;
+    background-size: contain;
+  }
 }
 
 .curved-loop-jacket {
