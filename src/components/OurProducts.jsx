@@ -23,6 +23,8 @@ const OurProducts = () => {
     const cards = cardsRef.current;
     if (!cards.length) return;
 
+    const isMobile = window.innerWidth <= 768;
+
     gsap.set(cards, { x: 0, y: 0, opacity: 1 });
     gsap.set(galleryRef.current, { autoAlpha: 0 }); // اخفاء الجاليري بالبداية
 
@@ -38,17 +40,49 @@ const OurProducts = () => {
     });
 
     cards.forEach((card, i) => {
-      tl.to(
-        card,
-        {
-          x: 700,
-          y: i * 20,
-          opacity: 1,
+      // const mobileY = -50 - (i * 150);
+      // const desktopX = 700;
+
+
+      if (isMobile) {
+        // حركة مخصصة لكل بطاقة للموبايل
+        tl.to(cards[0], {
+          y: -200, // ترتفع للأعلى وتبقى داخل المحفظة
+          zIndex: 1,
           duration: 1,
           ease: "power2.out",
-        },
-        i
-      );
+        }, 0); // تبدأ مباشرة
+
+        tl.to(cards[1], {
+          y: -160, // أقل من الأولى لتظهر فوقها
+          zIndex: 3,
+          duration: 1,
+          ease: "power2.out",
+        }, 1); // تظهر بعدها
+
+        tl.to(cards[2], {
+          y: -120, // الأقل ارتفاعًا لتكون أعلى الكل
+          zIndex: 5,
+          duration: 1,
+          ease: "power2.out",
+        }, 2); // تظهر بعدها
+      } else {
+        // نفس الحركة القديمة على الشاشات الكبيرة
+        cards.forEach((card, i) => {
+          tl.to(
+            card,
+            {
+              x: 700,
+              y: i * 20,
+              opacity: 1,
+              duration: 1,
+              ease: "power2.out",
+            },
+            i
+          );
+        });
+      }
+
     });
 
     // عند انتهاء البطاقات يظهر CircularGallery
@@ -67,7 +101,12 @@ const OurProducts = () => {
       </h2>
 
       {/* المحفظة */}
-      <div className="relative w-[40%] h-[600px] bg-[#90553C] rounded-[40px] mr-auto ml-[120px] shadow-xl">
+      <div className="relative 
+      w-[90%] sm:w-[40%] md:w-[40%] lg:w-[40%] xl:w-[40%] 2xl:w-[40%] 
+      h-[600px] bg-[#90553C] rounded-[40px] mr-auto 
+      ml-[5%] sm:ml-[120px] md:ml-[120px] lg:ml-[120px] xl:ml-[120px] 2xl:ml-[120px] 
+      shadow-xl
+      top-[15%] sm:top-0 md:top-0 lg:top-0 xl:top-0 2xl:top-0">
         <EmbroideryPattern EmbroideryNumber={6} className="absolute z-8 px-4" />
         <div className="absolute inset-x-0 top-[50px] h-[630px] bg-[#90553C] border-2 rounded-[40px] z-2" />
         <div className="absolute inset-x-0 top-[100px] h-[580px] bg-[#90553C] border-2 rounded-[40px] z-4" />
