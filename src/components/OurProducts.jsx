@@ -105,6 +105,7 @@ const OurProducts = () => {
       w-[90%] sm:w-[40%] md:w-[40%] lg:w-[40%] xl:w-[40%] 2xl:w-[40%] 
       h-[600px] bg-[#90553C] rounded-[40px] mr-auto 
       ml-[5%] sm:ml-[120px] md:ml-[120px] lg:ml-[120px] xl:ml-[120px] 2xl:ml-[120px] 
+      mb-[100%] sm:mb-0 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 
       shadow-xl
       top-[15%] sm:top-0 md:top-0 lg:top-0 xl:top-0 2xl:top-0">
         <EmbroideryPattern EmbroideryNumber={6} className="absolute z-8 px-4" />
