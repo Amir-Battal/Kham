@@ -6,5 +6,5 @@ Creative Landing Page for KHAM Leather shop
 
 <div align="center">
   
-[Aleppo Website](https://aleppo.amirbattal.com)
+[KHAM Website](https://kham.amirbattal.com/)
 </div>
